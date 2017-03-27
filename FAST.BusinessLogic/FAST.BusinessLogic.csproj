@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D01E6530-214D-493B-847D-503D54F9D22A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FAST.BusinessLogic</RootNamespace>
+    <AssemblyName>FAST.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLAppConfigurationInfo.cs" />
+    <Compile Include="BLAppStatusDetail.cs" />
+    <Compile Include="BLAppVersionInfo.cs" />
+    <Compile Include="BLBrandTerritoryMapping.cs" />
+    <Compile Include="BLCommandInfo.cs" />
+    <Compile Include="BLDCR.cs" />
+    <Compile Include="BLDCRLateApprovalLog.cs" />
+    <Compile Include="BLDegree.cs" />
+    <Compile Include="BLDistrict.cs" />
+    <Compile Include="BLDoctorLog.cs" />
+    <Compile Include="BLDoctorTerritoryMapping.cs" />
+    <Compile Include="BLDoctorUpdateRequest.cs" />
+    <Compile Include="BLDoctorUpdateRequestLogForRM.cs" />
+    <Compile Include="BLEmployeeInfo.cs" />
+    <Compile Include="BLGimmickInfo.cs" />
+    <Compile Include="BLGimmickTerritoryMapping.cs" />
+    <Compile Include="BLNationalHoliday.cs" />
+    <Compile Include="BLProduct.cs" />
+    <Compile Include="BLPVPDetail.cs" />
+    <Compile Include="BLPVPExceptionLog.cs" />
+    <Compile Include="BLPVPMaster.cs" />
+    <Compile Include="BLPVPMonthCycle.cs" />
+    <Compile Include="BLPVPWorkingDay.cs" />
+    <Compile Include="BLReason.cs" />
+    <Compile Include="BLSalutation.cs" />
+    <Compile Include="BLSampleInfo.cs" />
+    <Compile Include="BLSampleTerritoryMapping.cs" />
+    <Compile Include="BLSecQuesInfo.cs" />
+    <Compile Include="BLSFRegiInfo.cs" />
+    <Compile Include="BLSpecialty.cs" />
+    <Compile Include="BLTerritory.cs" />
+    <Compile Include="BLUpazilla.cs" />
+    <Compile Include="BLUserInfo.cs" />
+    <Compile Include="BLUserManagementInfo.cs" />
+    <Compile Include="Core\BLCoreAppConfigurationInfo.cs" />
+    <Compile Include="Core\BLCoreAppStatusDetail.cs" />
+    <Compile Include="Core\BLCoreAppVersionInfo.cs" />
+    <Compile Include="Core\BLCoreBrandTerritoryMapping.cs" />
+    <Compile Include="Core\BLCoreCommandInfo.cs" />
+    <Compile Include="Core\BLCoreDCR.cs" />
+    <Compile Include="Core\BLCoreDCRLateApprovalLog.cs" />
+    <Compile Include="Core\BLCoreDegree.cs" />
+    <Compile Include="Core\BLCoreDistrict.cs" />
+    <Compile Include="Core\BLCoreDoctorLog.cs" />
+    <Compile Include="Core\BLCoreDoctorTerritoryMapping.cs" />
+    <Compile Include="Core\BLCoreDoctorUpdateRequest.cs" />
+    <Compile Include="Core\BLCoreDoctorUpdateRequestLogForRM.cs" />
+    <Compile Include="Core\BLCoreEmployeeInfo.cs" />
+    <Compile Include="Core\BLCoreGimmickInfo.cs" />
+    <Compile Include="Core\BLCoreGimmickTerritoryMapping.cs" />
+    <Compile Include="Core\BLCoreNationalHoliday.cs" />
+    <Compile Include="Core\BLCoreProduct.cs" />
+    <Compile Include="Core\BLCorePVPDetail.cs" />
+    <Compile Include="Core\BLCorePVPExceptionLog.cs" />
+    <Compile Include="Core\BLCorePVPMaster.cs" />
+    <Compile Include="Core\BLCorePVPMonthCycle.cs" />
+    <Compile Include="Core\BLCorePVPWorkingDay.cs" />
+    <Compile Include="Core\BLCoreReason.cs" />
+    <Compile Include="Core\BLCoreSalutation.cs" />
+    <Compile Include="Core\BLCoreSampleInfo.cs" />
+    <Compile Include="Core\BLCoreSampleTerritoryMapping.cs" />
+    <Compile Include="Core\BLCoreSecQuesInfo.cs" />
+    <Compile Include="Core\BLCoreSFRegiInfo.cs" />
+    <Compile Include="Core\BLCoreSpecialty.cs" />
+    <Compile Include="Core\BLCoreTerritory.cs" />
+    <Compile Include="Core\BLCoreUpazilla.cs" />
+    <Compile Include="Core\BLCoreUserInfo.cs" />
+    <Compile Include="Core\BLCoreUserManagementInfo.cs" />
+    <Compile Include="Core\BLGimmickInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FAST.BusinessObjects\FAST.BusinessObjects.csproj">
+      <Project>{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}</Project>
+      <Name>FAST.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FAST.Core\FAST.Core.csproj">
+      <Project>{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}</Project>
+      <Name>FAST.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FAST.DataLogic\FAST.DataLogic.csproj">
+      <Project>{D8612545-D3CB-45C2-B558-BC2DFA467EDF}</Project>
+      <Name>FAST.DataLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

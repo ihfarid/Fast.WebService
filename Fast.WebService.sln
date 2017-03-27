@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAST", "FAST\FAST.csproj", "{AF318CAC-16D6-42A1-BD23-BE387181BF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAST.BusinessLogic", "FAST.BusinessLogic\FAST.BusinessLogic.csproj", "{D01E6530-214D-493B-847D-503D54F9D22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAST.BusinessObjects", "FAST.BusinessObjects\FAST.BusinessObjects.csproj", "{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAST.DataLogic", "FAST.DataLogic\FAST.DataLogic.csproj", "{D8612545-D3CB-45C2-B558-BC2DFA467EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAST.Core", "FAST.Core\FAST.Core.csproj", "{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://116.68.193.18:8080/tfs/nblcode
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FAST.BusinessLogic\\FAST.BusinessLogic.csproj
+		SccProjectName1 = FAST.BusinessLogic
+		SccLocalPath1 = FAST.BusinessLogic
+		SccProjectUniqueName2 = FAST.BusinessObjects\\FAST.BusinessObjects.csproj
+		SccProjectName2 = FAST.BusinessObjects
+		SccLocalPath2 = FAST.BusinessObjects
+		SccProjectUniqueName3 = FAST.Core\\FAST.Core.csproj
+		SccProjectName3 = FAST.Core
+		SccLocalPath3 = FAST.Core
+		SccProjectUniqueName4 = FAST.DataLogic\\FAST.DataLogic.csproj
+		SccProjectName4 = FAST.DataLogic
+		SccLocalPath4 = FAST.DataLogic
+		SccProjectUniqueName5 = FAST\\FAST.csproj
+		SccProjectName5 = FAST
+		SccLocalPath5 = FAST
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF318CAC-16D6-42A1-BD23-BE387181BF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF318CAC-16D6-42A1-BD23-BE387181BF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF318CAC-16D6-42A1-BD23-BE387181BF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF318CAC-16D6-42A1-BD23-BE387181BF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01E6530-214D-493B-847D-503D54F9D22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01E6530-214D-493B-847D-503D54F9D22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01E6530-214D-493B-847D-503D54F9D22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01E6530-214D-493B-847D-503D54F9D22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8612545-D3CB-45C2-B558-BC2DFA467EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8612545-D3CB-45C2-B558-BC2DFA467EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8612545-D3CB-45C2-B558-BC2DFA467EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8612545-D3CB-45C2-B558-BC2DFA467EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="FAST.asmx.cs" Class="FAST.FAST" %>

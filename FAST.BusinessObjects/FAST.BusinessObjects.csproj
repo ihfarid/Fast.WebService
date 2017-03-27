@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FAST.BusinessObjects</RootNamespace>
+    <AssemblyName>FAST.BusinessObjects</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfigurationInfo.cs" />
+    <Compile Include="AppStatusDetail.cs" />
+    <Compile Include="AppVersionInfo.cs" />
+    <Compile Include="BrandTerritoryMapping.cs" />
+    <Compile Include="CommandInfo.cs" />
+    <Compile Include="DCR.cs" />
+    <Compile Include="DCRLateApprovalLog.cs" />
+    <Compile Include="Degree.cs" />
+    <Compile Include="District.cs" />
+    <Compile Include="DoctorLog.cs" />
+    <Compile Include="DoctorTerritoryMapping.cs" />
+    <Compile Include="DoctorUpdateRequest.cs" />
+    <Compile Include="DoctorUpdateRequestLogForRM.cs" />
+    <Compile Include="EmployeeInfo.cs" />
+    <Compile Include="GimmickInfo.cs" />
+    <Compile Include="GimmickTerritoryMapping.cs" />
+    <Compile Include="NationalHoliday.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PVPDetail.cs" />
+    <Compile Include="PVPExceptionLog.cs" />
+    <Compile Include="PVPMaster.cs" />
+    <Compile Include="PVPMonthCycle.cs" />
+    <Compile Include="PVPWorkingDay.cs" />
+    <Compile Include="Reason.cs" />
+    <Compile Include="Salutation.cs" />
+    <Compile Include="SampleInfo.cs" />
+    <Compile Include="SampleTerritoryMapping.cs" />
+    <Compile Include="SecQuesInfo.cs" />
+    <Compile Include="SFRegiInfo.cs" />
+    <Compile Include="Specialty.cs" />
+    <Compile Include="Territory.cs" />
+    <Compile Include="Upazilla.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="UserManagementInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FAST.Core\FAST.Core.csproj">
+      <Project>{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}</Project>
+      <Name>FAST.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

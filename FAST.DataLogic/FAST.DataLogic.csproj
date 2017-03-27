@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D8612545-D3CB-45C2-B558-BC2DFA467EDF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FAST.DataLogic</RootNamespace>
+    <AssemblyName>FAST.DataLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\DLCoreAppConfigurationInfo.cs" />
+    <Compile Include="Core\DLCoreAppStatusDetail.cs" />
+    <Compile Include="Core\DLCoreAppVersionInfo.cs" />
+    <Compile Include="Core\DLCoreBrandTerritoryMapping.cs" />
+    <Compile Include="Core\DLCoreCommandInfo.cs" />
+    <Compile Include="Core\DLCoreDCR.cs" />
+    <Compile Include="Core\DLCoreDCRLateApprovalLog.cs" />
+    <Compile Include="Core\DLCoreDegree.cs" />
+    <Compile Include="Core\DLCoreDistrict.cs" />
+    <Compile Include="Core\DLCoreDoctorLog.cs" />
+    <Compile Include="Core\DLCoreDoctorTerritoryMapping.cs" />
+    <Compile Include="Core\DLCoreDoctorUpdateRequest.cs" />
+    <Compile Include="Core\DLCoreDoctorUpdateRequestLogForRM.cs" />
+    <Compile Include="Core\DLCoreEmployeeInfo.cs" />
+    <Compile Include="Core\DLCoreGimmickInfo.cs" />
+    <Compile Include="Core\DLCoreGimmickTerritoryMapping.cs" />
+    <Compile Include="Core\DLCoreNationalHoliday.cs" />
+    <Compile Include="Core\DLCoreProduct.cs" />
+    <Compile Include="Core\DLCorePVPDetail.cs" />
+    <Compile Include="Core\DLCorePVPExceptionLog.cs" />
+    <Compile Include="Core\DLCorePVPMaster.cs" />
+    <Compile Include="Core\DLCorePVPMonthCycle.cs" />
+    <Compile Include="Core\DLCorePVPWorkingDay.cs" />
+    <Compile Include="Core\DLCoreReason.cs" />
+    <Compile Include="Core\DLCoreSalutation.cs" />
+    <Compile Include="Core\DLCoreSampleInfo.cs" />
+    <Compile Include="Core\DLCoreSampleTerritoryMapping.cs" />
+    <Compile Include="Core\DLCoreSecQuesInfo.cs" />
+    <Compile Include="Core\DLCoreSFRegiInfo.cs" />
+    <Compile Include="Core\DLCoreSpecialty.cs" />
+    <Compile Include="Core\DLCoreTerritory.cs" />
+    <Compile Include="Core\DLCoreUpazilla.cs" />
+    <Compile Include="Core\DLCoreUserInfo.cs" />
+    <Compile Include="Core\DLCoreUserManagementInfo.cs" />
+    <Compile Include="DLAppConfigurationInfo.cs" />
+    <Compile Include="DLAppStatusDetail.cs" />
+    <Compile Include="DLAppVersionInfo.cs" />
+    <Compile Include="DLBrandTerritoryMapping.cs" />
+    <Compile Include="DLCommandInfo.cs" />
+    <Compile Include="DLDCR.cs" />
+    <Compile Include="DLDCRLateApprovalLog.cs" />
+    <Compile Include="DLDegree.cs" />
+    <Compile Include="DLDistrict.cs" />
+    <Compile Include="DLDoctorLog.cs" />
+    <Compile Include="DLDoctorTerritoryMapping.cs" />
+    <Compile Include="DLDoctorUpdateRequest.cs" />
+    <Compile Include="DLDoctorUpdateRequestLogForRM.cs" />
+    <Compile Include="DLEmployeeInfo.cs" />
+    <Compile Include="DLGimmickInfo.cs" />
+    <Compile Include="DLGimmickTerritoryMapping.cs" />
+    <Compile Include="DLNationalHoliday.cs" />
+    <Compile Include="DLProduct.cs" />
+    <Compile Include="DLPVPDetail.cs" />
+    <Compile Include="DLPVPExceptionLog.cs" />
+    <Compile Include="DLPVPMaster.cs" />
+    <Compile Include="DLPVPMonthCycle.cs" />
+    <Compile Include="DLPVPWorkingDay.cs" />
+    <Compile Include="DLReason.cs" />
+    <Compile Include="DLSalutation.cs" />
+    <Compile Include="DLSampleInfo.cs" />
+    <Compile Include="DLSampleTerritoryMapping.cs" />
+    <Compile Include="DLSecQuesInfo.cs" />
+    <Compile Include="DLSFRegiInfo.cs" />
+    <Compile Include="DLSpecialty.cs" />
+    <Compile Include="DLTerritory.cs" />
+    <Compile Include="DLUpazilla.cs" />
+    <Compile Include="DLUserInfo.cs" />
+    <Compile Include="DLUserManagementInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FAST.BusinessObjects\FAST.BusinessObjects.csproj">
+      <Project>{43AAEB20-9CA4-4CC4-B24D-8CAF90ABCE9C}</Project>
+      <Name>FAST.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FAST.Core\FAST.Core.csproj">
+      <Project>{2AA6FDE4-AD0E-4716-BCF8-F893E67A963F}</Project>
+      <Name>FAST.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
